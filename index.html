@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Señales de transito</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🚦Nombra la señal🚦</h1>
+        <img id="sign-image" src="" alt="">
+        <input type="text" id="guess" placeholder="...">
+        <button id="submit-btn" onclick="checkGuess()">Enviar</button>
+        <p id="correct-answer" class="hidden"></p>
+        <button id="next-btn" class="hidden" onclick="nextSign()">Siguiente</button>
+        <p id="feedback"></p>
+
+    </div>
+
+    <div id="results" class="hidden result-container">
+        <h2>🎉 Juego terminado 🎉</h2>
+        <p id="correct-count"></p>
+        <p id="incorrect-count"></p>
+        <button onclick="restartGame()">Jugar de nuevo</button>
+    </div>  
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

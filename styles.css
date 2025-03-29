@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    background-color: #2a247a;
+}
+
+.container {
+    max-width: 500px;
+    margin: 300px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 100px rgb(8, 4, 4);
+    border-radius: 40px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+input {
+    font-family: "Quicksand", sans-serif;
+    padding: 10px;
+    width: 90%;
+    margin: 10px 0;
+    border-radius: 40px;
+}
+
+button {
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #3c216e;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover {
+    background: #412c8b;
+}
+
+#correct-answer {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#next-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #3c216e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#next-btn:hover {
+    background: #412c8b;
+}
+
+.result-container {
+    font-family: "Quicksand", sans-serif;
+    max-width: 400px;
+    margin: 300px auto;
+    padding: 20px;
+    background: rgb(219, 219, 219);
+    box-shadow: 0px 0px 100px rgb(160, 160, 160);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.result-container h2 {
+    font-family: "Quicksand", sans-serif;
+    color: #333;
+}
+
+.result-container p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.result-container button {
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 20px;
+    background: #3c216e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.result-container button:hover {
+    font-family: "Quicksand", sans-serif;
+    background: #412c8b;
+}
