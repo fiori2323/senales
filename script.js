@@ -1,5 +1,5 @@
 const signs = [
-    { name: "Altura limitada", img: " alturalimitada.png" },
+    { name: "Altura limitada", img: "signals/alturalimitada.png" },
     { name: "Ambas direcciones permitidas", img: "signals/ambasdireccionespermitidas.png" },
     { name: "Ancho limitado", img: "signals/ancholimitado.png" },
     { name: "Animales sueltos", img: "signals/animalessueltos.png" },
