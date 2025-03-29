@@ -110,7 +110,7 @@ const signs = [
     { name: "Proximidad de pare", img: "signals/proximidaddepare.png" },
     { name: "Proximidad de paso", img: "signals/proximidaddepaso.png" },
     { name: "Proyeccion de piedas", img: "signals/proyecciondepiedras.png" },
-    { name: "Puente", img: "signals/puente.png" },
+    { name: "Puente angosto", img: "signals/puente.png" },
     { name: "Puente movil", img: "signals/puentemovil.png" },
     { name: "Puesto de control", img: "signals/puestodecontrol.png" },
     { name: "Rotonda", img: "signals/rotonda.png" },
