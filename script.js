@@ -55,7 +55,7 @@ const signs = [
     { name: "Flecha direccional", img: "signals/flechadireccional.png" },
     { name: "Giro obligatorio a la derecha", img: "signals/giroobligatoriodch.png" },
     { name: "Giro obligatorio a la izquierda", img: "signals/giroobligatorioizq.png" },
-    { name: "Hombres trabajando", img: "signals/hombrestrabajando.png" },
+    { name: "Personas trabajando", img: "signals/hombrestrabajando.png" },
     { name: "Incorporacion de transito lateral", img: "signals/incorporaciondetransitolateral.png" },
     { name: "Indicador de carriles", img: "signals/indicadordecarriles.png" },
     { name: "Inicio de doble circulacion", img: "signals/iniciodedoblecirculacion.png" },
